@@ -83,7 +83,7 @@ public class MainActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// TODO Auto-generated method stub
 		switch (item.getItemId()) {
-		case R.id.quit:
+		case R.id.main_menu_quit:
 			finish();
 			break;
 		default:
@@ -100,7 +100,7 @@ public class MainActivity extends Activity {
 		// TODO Auto-generated method stub
 		menu.clear();
 		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.options_menu, menu);
+		inflater.inflate(R.menu.main_menu, menu);
 		return super.onPrepareOptionsMenu(menu);
 	}
 
@@ -148,7 +148,7 @@ public class MainActivity extends Activity {
 			// TODO Auto-generated method stub
 			super.onPreExecute();
 			pDialog = new ProgressDialog(MainActivity.this);
-			pDialog.setMessage("Downloading file. Please wait...");
+			pDialog.setMessage(getResources().getString(R.string.main_download_progress_dialog_context));
 			pDialog.setIndeterminate(false);// 取消進度條
 			pDialog.setCancelable(true);// 開啟取消
 			pDialog.show();
@@ -205,7 +205,7 @@ public class MainActivity extends Activity {
 
 			gridAdapter = new GridViewAdapter(mContext, imageItems);
 
-			return "Done";
+			return null;
 		}
 
 		/**

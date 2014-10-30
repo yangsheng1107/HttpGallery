@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">GridViewGallery</string>
     <string name="hello_world">Hello world!</string>
 
     <!-- Main activity -->
+    <string name="main_download_progress_dialog_context">下载中，请稍后#8230</string>
 
-    <!-- Menu option -->
+    <!-- Main Menu option -->
     <string name="main_menu_quit">离开</string>
+
+    <!-- ViewImage activity -->
+    <string name="image_view_activity_content_description">显示Server端的图片</string>
+    <string name="image_view_activity_text">图片解码失败!!</string>
+    <string name="image_view_download_progress_dialog_context">下载中，请稍后#8230</string>
+    <string name="image_view_notification_title">完成</string>
+    <string name="image_view_notification_text">档案下载完毕</string>
+
+    <!-- View Menu option -->
+    <string name="view_menu_download">下载</string>
 
 </resources>

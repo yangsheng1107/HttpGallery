@@ -5,14 +5,19 @@
     <string name="hello_world">Hello world!</string>
 
     <!-- Main activity -->
+    <string name="main_download_progress_dialog_context">Downloading file. Please wait#8230</string>
 
-    <!-- Menu option -->
+    <!-- Main Menu option -->
     <string name="main_menu_quit">Quit</string>
-
-    <!-- About dialog -->
 
     <!-- ViewImage activity -->
     <string name="image_view_activity_content_description">Image display from server</string>
     <string name="image_view_activity_text">Decode image failure!!</string>
+    <string name="image_view_download_progress_dialog_context">Downloading file. Please wait#8230</string>
+    <string name="image_view_notification_title">Done</string>
+    <string name="image_view_notification_text">Download file success</string>
+
+    <!-- View Menu option -->
+    <string name="view_menu_download">Download</string>
 
 </resources>
