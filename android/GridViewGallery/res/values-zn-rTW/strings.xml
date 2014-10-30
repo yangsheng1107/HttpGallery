@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GridViewGallery</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Main activity -->
+
+    <!-- Menu option -->
+    <string name="main_menu_quit">離開</string>
+
+</resources>

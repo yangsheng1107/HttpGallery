@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GridViewGallery</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Main activity -->
+
+    <!-- Menu option -->
+    <string name="main_menu_quit">Quit</string>
+
+    <!-- About dialog -->
+
+    <!-- ViewImage activity -->
+    <string name="image_view_activity_content_description">Image display from server</string>
+    <string name="image_view_activity_text">Decode image failure!!</string>
+
+</resources>
